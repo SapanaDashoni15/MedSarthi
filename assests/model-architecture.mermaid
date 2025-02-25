@@ -1,0 +1,31 @@
+flowchart TB
+    subgraph Input
+        A[Prescription Image] --> B[Image Preprocessing]
+    end
+    
+    subgraph Detection
+        B --> C[YOLOv8 Object Detection]
+        C --> D[Handwriting Region Extraction]
+    end
+    
+    subgraph Recognition
+        D --> E[CNN Feature Extraction]
+        E --> F[BiLSTM Sequence Modeling]
+        F --> G[CTC Decoder]
+    end
+    
+    subgraph Structured_Data
+        G --> H[Information Extraction]
+        H --> I[Structured Order Creation]
+    end
+    
+    subgraph Validation
+        I --> J[Drug Interaction Check]
+        I --> K[Dosage Verification]
+        J --> L[Alert Generation]
+        K --> L
+    end
+    
+    subgraph Output
+        L --> M[Final Order & Warnings]
+    end
