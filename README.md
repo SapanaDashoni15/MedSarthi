@@ -14,14 +14,19 @@ The solution Approach can be summarized as follows:
 
 
 ## Results:
+lables of dataset
+![image](https://github.com/user-attachments/assets/7014ce3b-03c5-457c-8dbb-4bfc6006e9d7)
 results of model after training
+![image](https://github.com/user-attachments/assets/a2a4362f-7e12-4a90-969e-1e77a2bd0f95)
+![image](https://github.com/user-attachments/assets/0ef424a6-4ed1-40e7-aec8-dec64b24ad65)
+
 
 ## Run application in local machine:
 
 1. Clone the repository to your local machine
 2. Install all necessary dependencies and libraries as specified in the repository.
 3. Install requirements for streamlit app pip install -r requirements.txt
-4.Set up the environment and configure the solution parameters according to your requirements.
+4. Set up the environment and configure the solution parameters according to your requirements.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
