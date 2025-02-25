@@ -4,6 +4,9 @@ from PIL import Image
 import numpy as np
 import time
 
+st.set_page_config(page_title="MedSarthi: Pharmacist's Assistant", page_icon="💊", layout="centered")
+
+
 def showGif():
     file_ = open("./assests/the-simpsons-grampa.gif", "rb")
     contents = file_.read()
