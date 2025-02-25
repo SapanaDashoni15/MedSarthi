@@ -42,29 +42,3 @@ def dummy_predict(image_array):
     )
     return prediction_text
 
-uploaded_file = st.file_uploader("Upload a handwritten prescription image...", type=["jpg", "jpeg", "png"])
-
-if uploaded_file is not None:
-    image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Prescription", use_column_width=True)
-    image_resized = image.resize((128, 128))
-    image_array = np.array(image_resized) / 255.0
-    st.write("Analyzing prescription...")
-    with st.spinner("Processing..."):
-        time.sleep(2)
-        prediction = dummy_predict(image_array)
-    st.markdown("### Prediction:")
-    st.text(prediction)
-
-st.sidebar.title("Navigation")
-selection = st.sidebar.radio("Go to", ["Automates reading handwritten prescriptions", "Converts prescriptions into structured orders", "Alerts on dosage errors and conflicts"])
-
-if selection == "Automates reading handwritten prescriptions":
-    st.header("CNN + biLTSM model")
-    st.write("Details about how we detect and help victims...")
-elif selection == "Converts prescriptions into structured orders":
-    st.header("Flood Detection")
-    st.write("Details about flood detection...")
-else:
-    st.header("Detect Early Wildfires")
-    st.write("Details about wildfire detection...")
