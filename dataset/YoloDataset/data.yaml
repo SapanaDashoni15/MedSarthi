@@ -1,0 +1,836 @@
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: A to Z
+  1: A-C
+  2: A-Calm
+  3: ATOZ Senior
+  4: ATV
+  5: AU-20
+  6: Abdolax
+  7: Abecab
+  8: Abetis Plus
+  9: Ace
+  10: Ace Plus
+  11: Acelex
+  12: Acifix
+  13: Aciphin
+  14: Acliz Plus
+  15: Acos
+  16: Actrapid
+  17: Adam 33
+  18: Airflow
+  19: Alarup
+  20: Alatrol
+  21: Alcet
+  22: Alex
+  23: Alfumax ER
+  24: Algecal D
+  25: Algecal DX
+  26: Algicid DX
+  27: Algin
+  28: Algita D
+  29: Almex
+  30: Alneed
+  31: Alphapress
+  32: Alve
+  33: Ambrox
+  34: Amdocal
+  35: Amikacin
+  36: Amilin
+  37: Amira
+  38: Amit
+  39: Amitriptyline
+  40: Anadol
+  41: Anaflex Max
+  42: Ancor
+  43: Androcap
+  44: Angenta
+  45: Anil
+  46: Anset
+  47: Antacid Plus
+  48: Antazol
+  49: Anustat
+  50: Anuva
+  51: Apitac
+  52: Aquafresh
+  53: Arbit
+  54: Arilin
+  55: Aristovit
+  56: Arsenor
+  57: Ascobex
+  58: Atin
+  59: Atova
+  60: Atrizin
+  61: Atropin
+  62: Augment
+  63: Avas
+  64: Avaspray
+  65: Avenac
+  66: Avlolac
+  67: Avolac
+  68: Avotil
+  69: Axim CV
+  70: Axodin
+  71: Az
+  72: Azalid
+  73: Azicin
+  74: Azin
+  75: Azithrocin
+  76: Azithromycin
+  77: Azmasol HFA
+  78: Azolin
+  79: Azomac
+  80: Azyth
+  81: B Tonic
+  82: B-C
+  83: B126
+  84: Backtone
+  85: Bactin
+  86: Bactrocin
+  87: Becobion
+  88: Becoral D
+  89: Becoson
+  90: Becosules
+  91: Beklo
+  92: Benzapen
+  93: Betacap TR
+  94: Betanol
+  95: Betson
+  96: Bexitrol F
+  97: Bextram Gold
+  98: Bextram Silver
+  99: Bicozin
+  100: Bilan
+  101: Bilfast
+  102: Biofol
+  103: Bislol
+  104: Bizoran
+  105: Block T
+  106: Bonova
+  107: Bopam
+  108: Bost
+  109: Boxol
+  110: Brezofil
+  111: Brodil Levo HFA
+  112: Brom
+  113: Budicort
+  114: Bukof
+  115: Byloza
+  116: Cafenol
+  117: Calamine
+  118: Calbo D
+  119: Calboral D
+  120: Calchek Plus
+  121: Calcifil-D
+  122: Calcin D
+  123: Caldi
+  124: Camlodin
+  125: Camlosart
+  126: Canvo
+  127: Cardinex
+  128: Cardinor
+  129: Careaid Man
+  130: Carmina
+  131: Caryon
+  132: Casalt D
+  133: Catson
+  134: Cavic-C Plus
+  135: Cebuten
+  136: Ceclav
+  137: Ceevit
+  138: Cef-3
+  139: Cef-3 DS
+  140: Cefaclav
+  141: Ceferon-3
+  142: Cefim-3
+  143: Cefixim
+  144: Ceflin
+  145: Cefotil
+  146: Cefotil Plus
+  147: Cefrox
+  148: Ceftax
+  149: Ceftid
+  150: Ceftizone
+  151: Ceftriaid
+  152: Ceftriaxone
+  153: Ceftron
+  154: Cefuclav
+  155: Cefuroxime
+  156: Cerox-CV
+  157: Cevit
+  158: Cfresh
+  159: Cholevit
+  160: Cildip
+  161: Cinaron
+  162: Cinaron Plus
+  163: Cinkara
+  164: Ciprocin
+  165: Clamox
+  166: Claricin
+  167: Clavurox
+  168: Clindacin
+  169: Clobesol
+  170: Clognil
+  171: Clonazepam
+  172: Clopid
+  173: Clopirox
+  174: Clopixol
+  175: Cloram
+  176: CloramOintment
+  177: Clorocef
+  178: Clotrim
+  179: Co-Axet
+  180: Cofson
+  181: Combomax
+  182: Comet
+  183: Conpan
+  184: Consucon
+  185: Cora DX
+  186: Corabon Dx
+  187: Coralcal D
+  188: Coralcal DX
+  189: Coralcin D
+  190: Coralex DX
+  191: Coralgen-D
+  192: Cortan
+  193: Cortimax
+  194: Cosec
+  195: Cotson
+  196: Cyclopan
+  197: D-Balance
+  198: D-Lac
+  199: D-Rise
+  200: D-Set
+  201: D-Vine
+  202: DA
+  203: DDR
+  204: DNS
+  205: Danflex
+  206: Dapclin
+  207: Dapotin
+  208: Defcort
+  209: Deflazit
+  210: Deflux
+  211: Defracort
+  212: Defrol
+  213: Delanzo
+  214: Delentin
+  215: Delight
+  216: Demoxiclave
+  217: Denixil
+  218: Deproxen
+  219: Deslor
+  220: Dexacort
+  221: Dexilend
+  222: Dexlan
+  223: Diamicron MR
+  224: Diasulin
+  225: Dicaltrol
+  226: Dicephin
+  227: Dicliz Plus
+  228: Diclofen
+  229: Diconten
+  230: Dicot
+  231: Dilator
+  232: Dimerol
+  233: Dinafex
+  234: Dinovo
+  235: Dipa
+  236: Dirozyl
+  237: Disopen
+  238: Docopa
+  239: Domilux
+  240: Domin
+  241: Don A
+  242: Dopadon
+  243: Doxicap
+  244: Doxin
+  245: Doxiva
+  246: Doxocontin
+  247: Doxoma
+  248: Doxorin
+  249: Dulox
+  250: Duloxen
+  251: Duoblock
+  252: Duocard
+  253: Duphaston
+  254: Duracef
+  255: Duralax
+  256: Duvent
+  257: Dysmen
+  258: Dyvon
+  259: EC PLUS
+  260: Easylife
+  261: Ebatin
+  262: Econate Plus
+  263: Ecosprin
+  264: Ecosprin Plus
+  265: Edeloss
+  266: Edysta
+  267: Efodio
+  268: Emep
+  269: Emezin Plus
+  270: Eminate
+  271: Emistat
+  272: Epiclon
+  273: Epnil
+  274: Eprin
+  275: Equra
+  276: Erdon Tr
+  277: Escilex
+  278: Esipram
+  279: Esobest
+  280: Esocon
+  281: Esomeprazole
+  282: Esonix
+  283: Esonix M
+  284: Esoral
+  285: Esotac
+  286: Esotid
+  287: Etorix
+  288: Exilok
+  289: Exium
+  290: Exium Mups
+  291: Exor
+  292: Eylon
+  293: Ezex
+  294: Ezylife
+  295: FD
+  296: FSH
+  297: Facid BT
+  298: Famodin
+  299: Famomax
+  300: Famotack
+  301: Famotid
+  302: Fenadin
+  303: Fenat
+  304: Fendex
+  305: Feripon
+  306: Ferozi CI
+  307: Fertimax
+  308: Feva
+  309: Feviz Plus
+  310: Fexo
+  311: Fexofast
+  312: Filfresh
+  313: Filmet
+  314: Filodoxin
+  315: Finix
+  316: Firmvit
+  317: Fixal
+  318: Fixcef Plus
+  319: Fixocard
+  320: Flacort
+  321: Flamex
+  322: Flamyd
+  323: Flexi
+  324: Flexibac
+  325: Flontin
+  326: Floromox
+  327: Flucid
+  328: Fluclox
+  329: Flugal
+  330: Flunarizine
+  331: Flutica
+  332: Fluver
+  333: Fluxit
+  334: Folic
+  335: Folic Z
+  336: Folison
+  337: Folix
+  338: Foly
+  339: Fondy
+  340: Fosamin
+  341: Fossical D
+  342: Fossical DX
+  343: Frucard
+  344: Fuclav
+  345: Fullcare
+  346: Fungidal HC
+  347: Fungilac Cream
+  348: Furex
+  349: Furocef
+  350: Furoclav
+  351: Furotil Plus
+  352: Fusid
+  353: GENOVE Oil Free Moisturizer
+  354: Gaba-P
+  355: Gaba-P CR
+  356: Gabarol
+  357: Gavicool
+  358: Gaviflux
+  359: Gavilac
+  360: Gaviscon
+  361: Gensulin
+  362: Gensulin M
+  363: Geston
+  364: Gliclid
+  365: Glinta
+  366: Glipita M XR
+  367: Glucose
+  368: Gluvan Plus
+  369: Gold
+  370: Gutfix
+  371: HCG
+  372: HPC DS
+  373: HPR-DS
+  374: Haemozin TR
+  375: Hailoba
+  376: Halobet
+  377: Hartsol
+  378: Hemofix FZ
+  379: Hepavax
+  380: Hexirest
+  381: Hisone
+  382: Honycol
+  383: Hydrocortisone
+  384: Hypen SR
+  385: Hypnofast
+  386: Hypomer Gel
+  387: Indever
+  388: Indomet
+  389: Informet
+  390: Insulatard
+  391: Intimate
+  392: Ipec Plus
+  393: Ipec-Plus
+  394: Ipical D
+  395: Iprasol
+  396: Iprex
+  397: Isovent
+  398: Iventi
+  399: KCL
+  400: KT
+  401: Kalcoral D
+  402: Kalcoral DX
+  403: Karin
+  404: Kefuclav
+  405: Ketocon
+  406: Ketolac
+  407: Ketorolac
+  408: Kidcare
+  409: Kindical D
+  410: Kindical DX
+  411: Kosilite Lotion
+  412: Lacne Bar
+  413: Lacor
+  414: Lanso D
+  415: Lantus Solostar
+  416: Larb
+  417: Larel
+  418: Lasix
+  419: Leanxit
+  420: Levocar
+  421: Levoflox
+  422: Levostar
+  423: Levoxin
+  424: Lijenta
+  425: Limbix
+  426: Linaglip
+  427: Linatab
+  428: Linatab E
+  429: Linatab M
+  430: Linax Plus
+  431: Lindac
+  432: Lino-M
+  433: Lipicon
+  434: Lipigent
+  435: Liptor
+  436: Livodel
+  437: Longpara
+  438: Lopo
+  439: Losectil
+  440: Losucon 1
+  441: Lotenate Plus
+  442: Lotepred
+  443: Lotepro Plus
+  444: LoterexT
+  445: Lubistone
+  446: Lubric D
+  447: Lucan R
+  448: Lucent
+  449: Lulizol
+  450: Lumona
+  451: Lynes
+  452: Lyric
+  453: Lyrinex CR
+  454: Lyroxen
+  455: M Kast
+  456: MTX
+  457: Magmil
+  458: MarinCal-DX
+  459: Maxima
+  460: Maxima Mups
+  461: Maxpro
+  462: Maxpro Mups
+  463: Maxrin
+  464: Melpred
+  465: Menogia
+  466: Menoral
+  467: Menthol Steam Inhalation
+  468: Merison
+  469: Meroclav
+  470: Meroject
+  471: Merrvan
+  472: Met
+  473: Metacard MR
+  474: Metarin XR
+  475: Methigic
+  476: Methipred
+  477: Metnil
+  478: Metronidazole
+  479: Metryl
+  480: Micoral
+  481: Microgest
+  482: Migrex
+  483: Migrium
+  484: Miovit
+  485: Mirabeg
+  486: Mom
+  487: Monas
+  488: Montair
+  489: Montene
+  490: Montiva
+  491: Moodnor
+  492: Motelity
+  493: Motigut
+  494: Motilon
+  495: Moxacil
+  496: Moxaclav
+  497: Moxibac
+  498: Moxigen XG
+  499: Moxilin
+  500: Moxilocin
+  501: Multi Seas
+  502: Mycocure
+  503: Mydocalm
+  504: Myelin
+  505: Myolax
+  506: Myonil
+  507: Myotril
+  508: Myrica
+  509: N-Bion
+  510: N-S
+  511: NCL
+  512: Nalbun
+  513: Nalepsin
+  514: Napa
+  515: Napa Extend
+  516: Napa Extra
+  517: Napa One
+  518: Napa Rapid
+  519: Napadol
+  520: Napasin
+  521: Napro A
+  522: Naprosyn
+  523: Naprox Plus
+  524: Naproxen
+  525: Napsod
+  526: Nasalox
+  527: Nebanol
+  528: Nebulization
+  529: Neobion
+  530: Nepco
+  531: Nervex
+  532: Neso
+  533: Neucos B
+  534: Neucos-B
+  535: Neugaba
+  536: Neuralgin
+  537: Neuro B
+  538: Neurobest
+  539: Neurocare
+  540: Neurolep
+  541: Neuroxen
+  542: Nexcap
+  543: Nexcital
+  544: Nexovas
+  545: Nexum
+  546: Nexum Mups
+  547: Nintoin SR
+  548: Nitrin SR
+  549: Nitrovas SR
+  550: Noclog
+  551: Norin
+  552: Norium
+  553: Normacne
+  554: Normal Saline
+  555: Normanal
+  556: Normens
+  557: Nugesic
+  558: Nupralgin Plus
+  559: Nutrilina
+  560: Nyclobate
+  561: Nystat
+  562: O2 Inhalation
+  563: ORS
+  564: Odmon
+  565: Ofuran SR
+  566: Olme
+  567: Olmesan
+  568: Olsart
+  569: Omastin
+  570: Omega
+  571: Omep
+  572: Omeprazol
+  573: Omidon
+  574: Omitin
+  575: Omrazol
+  576: Onium
+  577: Optimox
+  578: Opton
+  579: Oradol
+  580: Orcical
+  581: Oricef
+  582: Ormin
+  583: Orotifen
+  584: Orthogen
+  585: Oryx
+  586: Osertil
+  587: Osmolax
+  588: Ostelin D
+  589: Ostocal D
+  590: Othera
+  591: Oticlor
+  592: Otosil
+  593: Ovulet
+  594: Oxecone M
+  595: Oxifyl CR
+  596: P-C
+  597: PG
+  598: Paloron
+  599: Paloxi
+  600: Pancil
+  601: Pantolok
+  602: Pantonix
+  603: Paracetamol
+  604: Parafresh
+  605: Paricel
+  606: Pave
+  607: Pedeamin
+  608: Pegalin
+  609: Peloxi
+  610: Penvik DS
+  611: Pericon
+  612: Perkinil
+  613: Perosa
+  614: Pethidine
+  615: Phylopen DS
+  616: Pizofen
+  617: Plagrin
+  618: Pogo
+  619: Polypro
+  620: Polytar Liquid
+  621: Potacit
+  622: Pramin
+  623: Prazo
+  624: Prebalin
+  625: Pregaba
+  626: Prelica
+  627: Primrole
+  628: Progut
+  629: Prolert
+  630: Promtil
+  631: Pronex
+  632: Pronil DS
+  633: Protide
+  634: Protinex Ultra
+  635: Pulmodox
+  636: Purisal
+  637: Q10
+  638: Qcin
+  639: Quidex
+  640: Rabe
+  641: Rabemax
+  642: Rablet
+  643: Radex
+  644: Rafex
+  645: Ramoril
+  646: Recogen
+  647: Recox
+  648: Reef DX
+  649: Reefcal D
+  650: Reefcal Kit
+  651: Reelife
+  652: Regab
+  653: Relatro
+  654: Relaxo
+  655: Relentus
+  656: Relise
+  657: Remood
+  658: Remophos
+  659: Remylin
+  660: Renova
+  661: Renova XR
+  662: Renxit
+  663: Reoil
+  664: Rephaston
+  665: Reservix
+  666: Reset
+  667: Revalon
+  668: Reversair
+  669: Revert
+  670: Rexiet
+  671: Riboson
+  672: Rivotril
+  673: Rocipro
+  674: Rofixim
+  675: Rofuclav
+  676: Rolac
+  677: Rolac MDT
+  678: Rolip
+  679: Ropitor
+  680: Rosen
+  681: Rosulin
+  682: Rosuva
+  683: Roxadex
+  684: Roxilab
+  685: Roxyzin
+  686: Rozavel
+  687: Rupa
+  688: Rupanil
+  689: Rupin
+  690: Rutix
+  691: Rynex
+  692: Sagdon
+  693: Salazine
+  694: Salbutal
+  695: Salmolin
+  696: Scabo
+  697: Seasonix
+  698: Seclo
+  699: Secnid DS
+  700: Secular
+  701: Sentix
+  702: Sergel
+  703: Seroxyn
+  704: Silosin
+  705: Sinaflox
+  706: Sinafresh Liquigel
+  707: Sizonil
+  708: Solas
+  709: Solbion
+  710: Solivo
+  711: Solupred
+  712: Solvit B
+  713: Sonap
+  714: Sonexa
+  715: Spirocard Plus
+  716: Square Zinc
+  717: Starcef
+  718: Stressnil
+  719: Sugatrol
+  720: Sulbion
+  721: Sulprex
+  722: Sultolin
+  723: Supra B
+  724: Synogen Alfa
+  725: Syu
+  726: TPC
+  727: TT vax
+  728: Tamen
+  729: Tamen Turbo
+  730: Tamino
+  731: Taven
+  732: Tearon
+  733: Telazine
+  734: Telide
+  735: Telma
+  736: Telmacal
+  737: Tenil
+  738: Terbin
+  739: Tetrazin
+  740: Thyrin
+  741: Thyrox
+  742: Ticamet Inhaler
+  743: Ticas
+  744: Tiofoop Acecap
+  745: Tivis
+  746: Todol
+  747: Tofaxen
+  748: Tofen
+  749: Tofranil
+  750: Tolson
+  751: Tonamax
+  752: Topium Rotacap
+  753: Toradol
+  754: Torax
+  755: Torsid
+  756: Tory
+  757: Traxyl
+  758: Trego
+  759: Trexam
+  760: Tri-B
+  761: Tribion
+  762: Tridosil
+  763: Trilock
+  764: Triocim
+  765: Trizedon MR
+  766: Trugain
+  767: Trumega
+  768: Tryptin
+  769: Tufnil
+  770: Turboclav
+  771: UbiQ
+  772: Ulfate
+  773: Ulrif
+  774: Umactin
+  775: Unifylin
+  776: Urikal
+  777: Uromax
+  778: Utifos
+  779: VT-3
+  780: Valestra
+  781: Valex
+  782: Vasco
+  783: Vave
+  784: Vaxtin
+  785: Vectra
+  786: Ventil Plus
+  787: Vergon
+  788: Vertina DX
+  789: Vertina Plus
+  790: Viodin
+  791: Virux
+  792: Visceralgine
+  793: Viscotin
+  794: Viset
+  795: Visonium
+  796: Visral
+  797: Vitabion
+  798: Volibo
+  799: Volinac
+  800: Voltalin
+  801: Voltalin SR
+  802: X-Cold
+  803: Xalcort
+  804: Xamic
+  805: Xeldrin
+  806: Xelpro
+  807: Xenole
+  808: Xenosal
+  809: Xetril
+  810: Xfin
+  811: Xinc B
+  812: Xorel
+  813: Xpa XR
+  814: Xpain
+  815: Xyclon
+  816: Xylocon
+  817: Xyril
+  818: Zeefol-CI
+  819: Zibac
+  820: Zif Forte
+  821: Zifolet
+  822: Zimax
+  823: Zinc
+  824: Ziton
+  825: Zo-Mups
+  826: Zoleta
+  827: Zovia Gold
+  828: Zox
+  829: Zymet
+  830: remmo
