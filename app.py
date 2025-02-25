@@ -16,7 +16,7 @@ def showGif():
 
 st.set_page_config(page_title="MedSarthi: Pharmacist's Assistant", page_icon="💊", layout="centered")
 st.title("MedSarthi: Pharmacist's Assistant")
-st.write("This tool simulates the reading of handwritten prescriptions, converting them into structured orders, and checking for dosage errors. (Demo with hardcoded predictions)")
+st.write("This tool simulates the reading of handwritten prescriptions, converting them into structured orders, and checking for dosage errors.")
 st.divider()
 st.subheader("AIM")
 st.markdown("Enhance disaster relief and response efforts by leveraging satellite imagery during disasters like floods and wildfires, integrating existing geospatial information, and utilizing environmental data for affected regions")
