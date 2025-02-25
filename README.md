@@ -23,7 +23,7 @@ results of model after training
 
 ## Run application in local machine:
 
-1. Clone the repository to your local machine
+1. Clone the repository to your local machine. Use this link - https://github.com/SapanaDashoni15/MedSarthi.git
 2. Install all necessary dependencies and libraries as specified in the repository.
 3. Install requirements for streamlit app pip install -r requirements.txt
 4. Set up the environment and configure the solution parameters according to your requirements.
