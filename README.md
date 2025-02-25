@@ -1,2 +1,2 @@
 # MedSarthi-
-Your companion for reading and understanding prescriptions.
+Google Girl Hacathon'25 Project
