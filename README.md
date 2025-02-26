@@ -32,6 +32,9 @@ To use the disaster relief and response solution, follow these steps:
 4. Set up the environment and configure the solution parameters according to your requirements.
 5. To Check results run - streamlit run app.py
 
+#Youtube Demo
+https://youtu.be/0VZJMe06zjw
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
