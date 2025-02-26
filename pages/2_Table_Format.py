@@ -16,9 +16,9 @@ st.markdown("👉 Keyword Spotting - Using the predefined python repositories of
 
 st.markdown("Accuracy - 91.78%")
 
-st.image('./assests/solution2.jpg')
+st.image('./assets/solution2.jpg')
 st.markdown("CNN + BiLSTM model for medical shorthand recognition output:")
-st.image('./assests/solution22.jpg')
+st.image('./assets/solution22.jpg')
 
 st.markdown("Numerical confusion matrix for medical shorthand recognition")
-st.image('./assests/solution23.jpg')
+st.image('./assets/solution23.jpg')
