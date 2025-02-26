@@ -12,9 +12,14 @@ def showGif():
         contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     st.markdown(
-        f'<img src="data:image/gif;base64,{data_url}" alt="Reading-medications">',
+        f"""
+        <div style="display: flex; justify-content: center;">
+            <img src="data:image/gif;base64,{data_url}" alt="Reading-medications" style="width: 500px; height: auto;">
+        </div>
+        """,
         unsafe_allow_html=True,
     )
+
 
 st.title("MedSarthi: Pharmacist's Assistant")
 st.write("This tool simulates the reading of handwritten prescriptions, converting them into structured orders, and checking for dosage errors.")
